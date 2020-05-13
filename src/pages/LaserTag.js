@@ -2,7 +2,6 @@ import React from "react"
 import Navbar from '../components/Navbar'
 // import Footer from '../components/Footer'
 
-
 const LaserTag = () => (
     <div>
       <Navbar />
@@ -11,7 +10,7 @@ const LaserTag = () => (
         <div class="title">
                 <div class="start">
                     <h1 class="content-heading">Making <span class="highlight">LaserTag</span> Cool Again!</h1>
-                    <div class="filler"></div>
+                <div class="filler"></div> {/* Fill in with image*/}
                 </div>
         </div>
 

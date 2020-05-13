@@ -85,10 +85,7 @@ h6 {
   grid-column: 1 / 7;
 }
 
-
   html {
-    color: var(--black);
-    background: var(--white);
     overflow-x: hidden;
     margin-top: 3vw;
     margin-bottom: 3vw;
