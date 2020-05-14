@@ -77,9 +77,18 @@ h6 {
   
   .title{
     font-family: Lato;
-    font-size: 50px;
+    font-size: 40px;
     margin-left: 10px;
+    margin-top: 0;
     }
+
+.c6 {
+  grid-column: 4 / 10;
+}
+
+.c6-right {
+    grid-column: 8 / 12;
+}
 
 .c6-left {
   grid-column: 1 / 7;
@@ -100,136 +109,93 @@ h6 {
   
   h5 {
     font-family: Lato;
-    font-size: 16px;    
+    font-size: 14px;    
     font-weight: bold;
     line-height: inherit;
     margin: 0;
   }
-  
+
+
+  .main {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+
   .content {
     display: grid;
-    grid-column-gap: 5vw;
-    grid-template-columns: auto;
+    grid-column-gap: 4vw;
     grid-row-gap: 5vw;
-    grid-template-rows: auto auto auto;
     position: relative;
     margin-top: 3em;
     margin-bottom: 3em;
 }
 
-.exp {
-  border-radius: 50px;
+.card {
+  border-radius: 10px;
+  width: 100%;
+  height: 250px;
+  vertical-align: middle;
+  box-shadow:  17px 17px 34px #c4c4c4, 
+  -17px -17px 34px #ffffff;
+}
+
+.area {
   display: flex;
+  border-radius: 10px;
   flex-direction: column;
   position: relative;
-  width: 100%;
-  
-}
-.exp:after {
-  content: "";
-  display: block;
-  padding-bottom: 100%;
-}
-.exp-content {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
   width: 100%;
   height: 100%;
-  justify-content: center;
   align-items: center;
   text-align: center;
-}
-.exp-title {
-  vertical-align: top;
-  text-align: left;
+  box-shadow:  17px 17px 34px #c4c4c4, 
+  -17px -17px 34px #ffffff;
 }
 
-.exp-github {
-  background: #4AFC95;
+.trana-card {
+  background-color: #ee9617;
+  background-image: linear-gradient(315deg, #ee9617 0%, #fe5858 74%);
 
 }
-.exp-starbucks {
-  background: rgb(34, 82, 121);
+
+.twitch-card{
+  background-color: #6441A5;
+  background-image: linear-gradient(315deg, #6441A5 30%, #9921E8 95%);
 }
 
-.github-logo {
+.laser-card {
+  background-color: #7ee8fa;
+background-image: linear-gradient(315deg, #7ee8fa 0%, #4AFC95 74%);
+
+
+}
+
+.card-logo{
   position: relative;
-  margin-bottom: 1.5em;
-  height: 17.5%;
-  
-  animation: 1.0s ease-in-out infinite infinite-bob;
-}
-.starbucks-heat-container {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  margin-right: 5%;
-  margin-bottom: 5%;
-  height: 10%;
-  justify-content: center;
-  align-items: center;
-}
-.starbucks-heat {
-  display: inline-flex;
-  margin: 7.5%;
-  width: 5vw;
-  height: 65%;
-  border-radius: 10em;
-  background: var(--white);
-}
-
-.white{
-  font-family: Lato-Black;
-  font-size: 100px;
-  color: #ffffff;
-}
-
-.black{
-  font-family: Lato-Black;
-  font-size: 100px;
-  color: #000000;
-}
-
-.evaporate-1 {
-  animation: 2.0s ease-in-out infinite evaporate;
-  animation-delay: 0s;
-}
-.evaporate-2 {
-  animation: 2.0s ease-in-out infinite evaporate;
-  animation-delay: 0.5s;
-}
-.evaporate-3 {
-  animation: 2.0s ease-in-out infinite evaporate;
-  animation-delay: 1.0s;
-}
-
-.starbucks-logo {
-  position: relative;
-  margin-bottom: 0;
+  margin-bottom: -65px;
   height: 30%;
-}
-
-.github-title {
-  color: #24292E;
-  margin-bottom: 1.5vw;
-}
-.github-link {
-  color: #6F42C1;
-}
-
-/* STARBUCKS */
-.starbucks-title {
-  color: #00704A;
-  margin-bottom: 1.5vw;
-}
-.starbucks-link {
-  color: #00704A
 }
 
   .subtitle{
     font-family: Lato;
+    font-size: 18px;
+    display: flex;
+    position: relative;
+    margin-left: 10px;
+    margin-top: -12px;
+  }
+
+  .para{
+    font-family: Lato;
+    font-size: 24px;
+    margin-left: 10px;
+  }
+
+  .sub-heading{
+    font-family: Lato-Black;
     font-size: 20px;
+    color: #fe5858;
     display: flex;
     position: relative;
     margin-left: 10px;
@@ -237,21 +203,25 @@ h6 {
   
   .grid{
     display: grid;
-    grid-template-columns: minmax(0, 0.15fr);
+    grid-template-columns: minmax(0, 1fr);
   }
   
   .c12 {
     grid-column: 2 /12;
   }
+
   .c6 {
     grid-column: 4 / 10;
   }
+
   .c6-left {
     grid-column: 1 / 7;
   }
+
   .c6-right {
     grid-column: 8 / 12;
   }
+
   .flex {
     display: flex;
     flex-direction: column;
@@ -263,6 +233,17 @@ h6 {
     flex-direction: row;
     justify-content: flex-end;
     position: relative;
+}
+
+.white{
+  color: white;
+}
+
+.twitch-logo{
+  margin-top: 50px;
+  margin-bottom: 5px;
+  width: 12vw;
+  vertical-align: middle;
 }
 
 .icons {
@@ -285,17 +266,37 @@ h6 {
   
   .heading{
     font-family: Lato-Black;
+    font-size: 70px;
+    margin-bottom: -10px;
+    vertical-align: middle;
+    margin-top: 80px;
+
+  }
+
+  .laser-heading{
+    font-family: Airstrike Laser;
+    font-size: 70px;
+    margin-bottom: -5px;
+    vertical-align: middle;
+    margin-top: 90px;
+
+  }
+
+  .trana-heading{
+    font-family: Dosis;
     font-size: 80px;
+    font-weight: 400;
+    margin-bottom: -10px;
   }
   
   .option{
     font-family: Lato;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 3em;
   }
   
   .logo{
-      height: 5em;
+      height: 3em;
       transition: 1.5s ease-in-out;
       vertical-align: middle;
   }
@@ -309,19 +310,15 @@ h6 {
   .content-web {
     display: none;
   }
-  
-  .main {
-    margin-top: 3em;
-    margin-bottom: 3em;
-  }
-  
+
   .section {
     margin-bottom: 3em;
   }
   
   .option {
     display: inline;
-    margin-left: 6vw;
+    font-size: 18px;
+    margin-left: 3vw;
     font-weight: normal;
     color: #888888;
   }
@@ -342,48 +339,98 @@ h6 {
    background-color: #4AFC95;
    font-weight: bold;
    padding-top: 2px;
-   padding-bottom: 4px;
+   padding-bottom: 2px;
    padding-right: 5px;
+  }
+
+  .highlight-werk{
+    background-color: #ee9617;
+    background-image: linear-gradient(315deg, #ee9617 0%, #fe5858 74%);
+    color: #ffffff;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .highlight-twitch{
+    background-color: #6441A5;
+    background-image: linear-gradient(315deg, #6441A5 30%, #9921E8 95%);
+    color: #ffffff;
+    padding-top: 3px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 
   .filler{
     background-color: #888888;
     width: 100%;
-    height: 800px;
+    height: 500px;
     margin-top: 30px;
+    margin-bottom: 80px;
+  }
+
+  .divide{
+    border-top: 1px solid #b1b1b1;
+    margin-bottom: 3em;
   }
   
   .smm{
-    font-size: 35px;
+    font-size: 28px;
     max-width: 80%;
     font-family: Lato;
   }
   
   .smm2{
     font-family: Lato;
-    font-size: 26px;
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 15vh;
   }
 
   .medium{
-    font-family: Lato-Light;
-    font-size: 35px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 300;
   }
+
+  .laser-medium{
+      font-family: Lato;
+      font-size: 18px;
+      font-weight: 400;
+    }
   
   .ashoka{
     color: #c02739;
   }
   
   .start{
-    margin-top: 4.5vh;
+    margin-top: 0;
   }
 
   .content-heading{
     font-family: Lato-Black;
-    font-size: 120px;
+    font-size: 90px;
     margin-top: -20px;
   }
+
+  .hvr-float{
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    transition-duration: .3s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+  }
+
+
+  .hvr-float:active, .hvr-float:focus, .hvr-float:hover{
+    -webkit-transform:translateY(-8px);transform:translateY(-8px)
+  }
   
-  @media screen and (min-width: 650px) {
+  @media screen and (min-width: 850px) {
     /* GLOBAL */
     .content-web {
         display: flex;
@@ -398,8 +445,8 @@ h6 {
     }
 
     .content {
-      grid-template-columns: auto auto;
-  }
+      grid-template-columns: 45% 45%;
+    }
 
 
     .flex {
@@ -420,6 +467,7 @@ h6 {
     .logo {
         height: 5em;
     }
+
     .nav {
         margin-left: auto;
         margin-right: 3em;
