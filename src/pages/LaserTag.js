@@ -9,7 +9,7 @@ const LaserTag = () => (
     <header class="c12">
         <div class="title">
                 <div class="start">
-                    <h1 class="content-heading">Making <span class="highlight">LaserTag</span> Cool Again!</h1>
+                    <h1 class="content-heading">Making <span class="highlight-laser">LaserTag</span> Cool Again!</h1>
                 <div class="filler"></div> {/* Fill in with image*/}
                 </div>
         </div>

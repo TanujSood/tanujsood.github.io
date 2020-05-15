@@ -75,23 +75,23 @@ h6 {
     }
   }
   
-  .title{
-    font-family: Lato;
-    font-size: 40px;
-    margin-left: 10px;
-    margin-top: 0;
-    }
+  .c6 {
+    grid-column: 4 / 10;
+  }
+  
+  .c6-right {
+      grid-column: 8 / 12;
+  }
+  
+  .c6-left {
+    grid-column: 1 / 7;
+  }
 
-.c6 {
-  grid-column: 4 / 10;
-}
-
-.c6-right {
-    grid-column: 8 / 12;
-}
-
-.c6-left {
-  grid-column: 1 / 7;
+.title{
+  font-family: Lato;
+  font-size: 40px;
+  margin-left: 10px;
+  margin-top: 12px;
 }
 
   html {
@@ -117,8 +117,8 @@ h6 {
 
 
   .main {
-    margin-top: 3em;
-    margin-bottom: 3em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
 }
 
 
@@ -149,8 +149,7 @@ h6 {
   height: 100%;
   align-items: center;
   text-align: center;
-  box-shadow:  17px 17px 34px #c4c4c4, 
-  -17px -17px 34px #ffffff;
+  
 }
 
 .trana-card {
@@ -166,9 +165,7 @@ h6 {
 
 .laser-card {
   background-color: #7ee8fa;
-background-image: linear-gradient(315deg, #7ee8fa 0%, #4AFC95 74%);
-
-
+  background-image: linear-gradient(315deg, #7ee8fa 0%, #4AFC95 74%);
 }
 
 .card-logo{
@@ -186,16 +183,66 @@ background-image: linear-gradient(315deg, #7ee8fa 0%, #4AFC95 74%);
     margin-top: -12px;
   }
 
+.summary {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.summary-section {
+  width: 100%;
+}
+
+.summary-item {
+  margin-bottom: 0.5em;
+}
+
   .para{
     font-family: Lato;
-    font-size: 24px;
+    font-size: 18px;
     margin-left: 10px;
+    margin-bottom: 0;
+    margin-top: 5px;
   }
+
+  .section-para{
+    font-family: Lato;
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+
+  .para-left{
+    font-family: Lato;
+    font-size: 19px;
+    margin-left: 10px;
+    width: 95%;
+  }
+
+
 
   .sub-heading{
     font-family: Lato-Black;
-    font-size: 20px;
+    font-size: 18px;
     color: #fe5858;
+    display: flex;
+    position: relative;
+    margin-left: 10px;
+  }
+
+  .section-heading{
+    font-family: Lato-Black;
+    font-size: 18px;
+    color: #fe5858;
+    display: flex;
+    position: relative;
+    margin-left: 4px;
+  }
+
+  .twitch-heading{
+    font-family: Lato-Black;
+    font-size: 18px;
+    color: #6441A5;
     display: flex;
     position: relative;
     margin-left: 10px;
@@ -242,8 +289,8 @@ background-image: linear-gradient(315deg, #7ee8fa 0%, #4AFC95 74%);
 .twitch-logo{
   margin-top: 50px;
   margin-bottom: 5px;
-  width: 12vw;
-  vertical-align: middle;
+  width: 35%;
+  height: auto;
 }
 
 .icons {
@@ -269,8 +316,13 @@ background-image: linear-gradient(315deg, #7ee8fa 0%, #4AFC95 74%);
     font-size: 70px;
     margin-bottom: -10px;
     vertical-align: middle;
-    margin-top: 80px;
+    margin-top: 7vh;
+  }
 
+  .section-title{
+    font-family: Lato-Black;
+    font-size: 80px;
+    margin-bottom: 10px;
   }
 
   .laser-heading{
@@ -336,11 +388,21 @@ background-image: linear-gradient(315deg, #7ee8fa 0%, #4AFC95 74%);
   }
   
   .highlight{
-   background-color: #4AFC95;
-   font-weight: bold;
-   padding-top: 2px;
-   padding-bottom: 2px;
-   padding-right: 5px;
+    background-color: #4AFC95;
+    font-weight: bold;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+  }
+
+  .highlight-laser{
+    background-color: #7ee8fa;
+    background-image: linear-gradient(315deg, #7ee8fa 0%, #4AFC95 74%);
+    font-weight: bold;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
   .highlight-werk{
@@ -355,7 +417,7 @@ background-image: linear-gradient(315deg, #7ee8fa 0%, #4AFC95 74%);
 
   .highlight-twitch{
     background-color: #6441A5;
-    background-image: linear-gradient(315deg, #6441A5 30%, #9921E8 95%);
+    background-image: linear-gradient(315deg, #9921E8 20%, #6441A5 95%);
     color: #ffffff;
     padding-top: 3px;
     padding-bottom: 8px;
@@ -372,7 +434,7 @@ background-image: linear-gradient(315deg, #7ee8fa 0%, #4AFC95 74%);
   }
 
   .divide{
-    border-top: 1px solid #b1b1b1;
+    border-top: 1px solid #c7c7c7;
     margin-bottom: 3em;
   }
   
@@ -386,7 +448,7 @@ background-image: linear-gradient(315deg, #7ee8fa 0%, #4AFC95 74%);
     font-family: Lato;
     font-weight: 500;
     font-size: 20px;
-    padding-bottom: 15vh;
+    padding-bottom: 18vh;
   }
 
   .medium{
@@ -409,6 +471,11 @@ background-image: linear-gradient(315deg, #7ee8fa 0%, #4AFC95 74%);
     margin-top: 0;
   }
 
+  .error{
+    text-align: center;
+  }
+  
+
   .content-heading{
     font-family: Lato-Black;
     font-size: 90px;
@@ -430,7 +497,7 @@ background-image: linear-gradient(315deg, #7ee8fa 0%, #4AFC95 74%);
     -webkit-transform:translateY(-8px);transform:translateY(-8px)
   }
   
-  @media screen and (min-width: 850px) {
+  @media screen and (min-width: 1000px) {
     /* GLOBAL */
     .content-web {
         display: flex;
@@ -448,6 +515,10 @@ background-image: linear-gradient(315deg, #7ee8fa 0%, #4AFC95 74%);
       grid-template-columns: 45% 45%;
     }
 
+    .summary {
+      grid-template-columns: 60% 40%;
+      grid-column-gap: 5vw;
+    }
 
     .flex {
         display: flex;
