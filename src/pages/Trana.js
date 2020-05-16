@@ -26,9 +26,9 @@ const Trana = () => (
                     <div class="section summary-item">
                         <h5 class="sub-heading">OVERVIEW</h5>
                         <p class="para-left">
-                            During these pandemic struck times, I found no motivation to workout at home, so I decided to do something about it. With nowhere to go and loads of idle time, I decided to create an app that would help people find the motivation to get themselves out of bed. Träna is an app that motivates people to work out at home and stay fit.                        </p>
+                            During pandemic struck times, I found no motivation to work out at home, so I decided to do something about it. With nowhere to go and loads of idle time, I decided to create an app that would help people find the motivation to get themselves out of bed. Träna is an app that motivates people to work out at home and stay fit.                        </p>
                         <p class="para-left">
-                            Träna connects users with there peers and allows them to work out together and dominate weekly scores. All of this, in the comfort of their homes.
+                            Träna connects users with there peers and allows them to work out together and compete in an attempt to dominate weekly scores. All of this, in the comfort of their homes.
                         </p>
                     </div>
                 </div>

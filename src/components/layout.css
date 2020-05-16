@@ -97,7 +97,6 @@ h6 {
   html {
     overflow-x: hidden;
     margin-top: 3vw;
-    margin-bottom: 3vw;
     animation: 1.0s ease-in fade-in;
   }
   
@@ -132,12 +131,19 @@ h6 {
 }
 
 .card {
-  border-radius: 10px;
+  border-radius: 7px;
   width: 100%;
   height: 250px;
   vertical-align: middle;
-  box-shadow:  17px 17px 34px #c4c4c4, 
-  -17px -17px 34px #ffffff;
+}
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .area {
@@ -209,8 +215,39 @@ h6 {
     font-size: 18px;
     margin-bottom: 0;
     margin-top: 0;
+    margin-left: 2px;
   }
 
+  .magic-potion{
+    color: #ff4466;
+  }
+
+  .chat{
+    /* text-align: center; */
+  }
+
+  .contact{
+    font-family: Lato-Black;
+    font-size: 40px;
+    margin-top: 20vh;
+  }
+
+  .mail{
+    font-size: 30px;
+    margin-top: -20px;
+  }
+
+  .footer{
+    margin-top: 20vh;
+    width: 100%;
+    text-align: center;
+  }
+
+  .highlight-mail{
+    background-color: #4AFC95;
+    padding-bottom: 2px;
+    font-weight: bold;
+  }
 
   .para-left{
     font-family: Lato;
@@ -218,8 +255,6 @@ h6 {
     margin-left: 10px;
     width: 95%;
   }
-
-
 
   .sub-heading{
     font-family: Lato-Black;
@@ -236,7 +271,7 @@ h6 {
     color: #fe5858;
     display: flex;
     position: relative;
-    margin-left: 4px;
+    margin-left: 3.5px;
   }
 
   .twitch-heading{
@@ -261,6 +296,10 @@ h6 {
     grid-column: 4 / 10;
   }
 
+  .c4{
+    grid-column: 3 / 11;
+  }
+
   .c6-left {
     grid-column: 1 / 7;
   }
@@ -275,11 +314,8 @@ h6 {
   }
 
   .social {
-    grid-column: 9/ 13;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    position: relative;
+    display: inline;
+    text-align: center;
 }
 
 .white{
@@ -295,10 +331,17 @@ h6 {
 
 .icons {
   display: inline-block;
-  margin-left: 1.5vw;
-  height: 1.5em;
-  opacity: 0.45;
+  height: 1.55em;
+  margin-left: 25px;
+  margin-right: 25px;
+  opacity: 0.5;
   transition: 0.28s;
+}
+
+.icons:hover{
+  opacity: 0.95;
+  transition: 0.25s ease-in;
+
 }
   
   .hero {
@@ -307,7 +350,8 @@ h6 {
   
   .header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     line-height: 3em;
   }
   
@@ -351,12 +395,13 @@ h6 {
       height: 3em;
       transition: 1.5s ease-in-out;
       vertical-align: middle;
+      align-self: left;
+      flex-direction: ;
   }
-  
+
   .nav {
     line-height: 3em;
-    align-items: right;
-    margin-left: auto;
+    align-items: center;
   }
   
   .content-web {
@@ -369,7 +414,7 @@ h6 {
   
   .option {
     display: inline;
-    font-size: 18px;
+    font-size: 14px;
     margin-left: 3vw;
     font-weight: normal;
     color: #888888;
@@ -379,7 +424,8 @@ h6 {
     color: black;
   }
   .option:hover {
-    color: var(--black);
+    color: black;
+    transition: 0.25s ease-in;
   }
   
   .block{
@@ -393,6 +439,7 @@ h6 {
     padding-top: 2px;
     padding-bottom: 2px;
     padding-right: 5px;
+    padding-left: 5px;
   }
 
   .highlight-laser{
@@ -424,7 +471,7 @@ h6 {
     padding-right: 15px;
     padding-left: 15px;
   }
-
+ 
   .filler{
     background-color: #888888;
     width: 100%;
@@ -474,6 +521,12 @@ h6 {
   .error{
     text-align: center;
   }
+
+  .copyright{
+    color: #353535;
+    margin-top: 25px;
+    font-size: 15px;
+  }
   
 
   .content-heading{
@@ -481,23 +534,8 @@ h6 {
     font-size: 90px;
     margin-top: -20px;
   }
-
-  .hvr-float{
-    display: inline-block;
-    vertical-align: middle;
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px transparent;
-    transition-duration: .3s;
-    transition-property: transform;
-    transition-timing-function: ease-out;
-  }
-
-
-  .hvr-float:active, .hvr-float:focus, .hvr-float:hover{
-    -webkit-transform:translateY(-8px);transform:translateY(-8px)
-  }
   
-  @media screen and (min-width: 1000px) {
+  @media screen and (min-width: 700px) {
     /* GLOBAL */
     .content-web {
         display: flex;
@@ -530,13 +568,19 @@ h6 {
     .hero {
         margin-bottom: 3em;
     }
+
     .header {
-        margin-bottom: 1.5em;
-        line-height: 3em;
-        justify-content: space-between;
+      display: flex;
+      flex-direction: row;
+      align-items: inherit;
+      margin-bottom: 1.5em;
+      line-height: 3em;
+      justify-content: space-between;
     }
+    
     .logo {
         height: 5em;
+        margin-right: 0;
     }
 
     .nav {
@@ -544,8 +588,11 @@ h6 {
         margin-right: 3em;
         line-height: 3em;
     }
+
     .option {
-        margin-left: 3vw;
+      align-items: center;
+      font-size: 14px;
+      margin-left: 4vw;
     }
   }
 
