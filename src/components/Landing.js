@@ -44,7 +44,7 @@ const Landing = ({ siteTitle }) => (
             <Link to="/LaserTag/"><div class="card card-1 laser-card">
                 <div class="area">
                     <h2 class="laser-heading">LASERTAG</h2>
-                    <h5 class="laser-medium">Taking Outdoor Sports to the next level with AR</h5>
+                    <h5 class="laser-medium">Coming Soon...</h5>
                 </div>
             </div></Link>
 

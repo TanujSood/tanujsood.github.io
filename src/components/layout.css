@@ -1,3 +1,39 @@
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  src: url("../fonts/Lato-Regular.ttf") format("ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Lato-Black;
+  font-style: normal;
+  src: url("../fonts/Lato-Black.ttf") format("ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Airstrike;
+  font-style: normal;
+  src: url("../fonts/airstrike.ttf") format("ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Airstrike Laser;
+  font-style: normal;
+  src: url("../fonts/airstrikelaser.ttf") format("ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Dosis;
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Dosis-Regular.ttf") format("ttf");
+  font-display: swap;
+}
+
 /* Global Headings */
 
 h1 {
