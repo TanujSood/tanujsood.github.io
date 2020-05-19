@@ -328,6 +328,10 @@ h6 {
     grid-column: 2 /12;
   }
 
+  .col-12 {
+    grid-column: 1 /12;
+  }
+
   .c6 {
     grid-column: 4 / 10;
   }
@@ -393,7 +397,7 @@ h6 {
   
   .heading{
     font-family: Lato-Black;
-    font-size: 70px;
+    font-size: 50px;
     margin-bottom: -10px;
     vertical-align: middle;
     margin-top: 7vh;
@@ -428,7 +432,7 @@ h6 {
   }
   
   .logo{
-      height: 3em;
+      height: 4em;
       transition: 1.5s ease-in-out;
       vertical-align: middle;
       align-self: left;
@@ -522,15 +526,15 @@ h6 {
   }
   
   .smm{
-    font-size: 28px;
-    max-width: 80%;
+    font-size: 20px;
+    max-width: 100%;
     font-family: Lato;
   }
   
   .smm2{
     font-family: Lato;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     padding-bottom: 18vh;
   }
 
@@ -571,13 +575,30 @@ h6 {
     margin-top: -20px;
   }
   
-  @media screen and (min-width: 700px) {
+  @media screen and (min-width: 1000px) {
     /* GLOBAL */
     .content-web {
         display: flex;
     }
     .content-mobile {
         display: none;
+    }
+
+    .col-12 {
+      grid-column: 2 /12;
+    }
+
+    .smm{
+      font-size: 28px;
+      max-width: 80%;
+    }
+
+    .smm2{
+      font-size: 20px;
+    }
+
+    .heading{
+      font-size: 70px;
     }
     
     /* GRID */

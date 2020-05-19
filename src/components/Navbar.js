@@ -6,7 +6,7 @@ import { Link } from "gatsby"
 
 const Navbar = ({ siteTitle }) => (
   <body class="grid">
-        <header class="c12">
+        <header class="col-12">
             <div class="hero">
                 <div class="header">
                   <div class="logo-div">
