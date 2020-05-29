@@ -249,17 +249,22 @@ h6 {
   .section-para{
     font-family: Lato;
     font-size: 18px;
-    margin-bottom: 0;
+    margin-bottom: 18px;
+    line-height: 30px;
     margin-top: 0;
+    margin-left: 2px;
+  }
+
+  .section-bullet{
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 0px;
     margin-left: 2px;
   }
 
   .magic-potion{
     color: #ff4466;
-  }
-
-  .chat{
-    /* text-align: center; */
   }
 
   .contact{
@@ -287,8 +292,9 @@ h6 {
 
   .para-left{
     font-family: Lato;
-    font-size: 19px;
+    font-size: 18px;
     margin-left: 10px;
+    line-height: 30px;
     width: 95%;
   }
 
@@ -299,6 +305,7 @@ h6 {
     display: flex;
     position: relative;
     margin-left: 10px;
+    margin-top: 3em;
   }
 
   .section-heading{
@@ -308,6 +315,7 @@ h6 {
     display: flex;
     position: relative;
     margin-left: 3.5px;
+    margin-top: 3em;
   }
 
   .twitch-heading{
@@ -365,7 +373,7 @@ h6 {
 .twitch-logo{
   margin-top: 50px;
   margin-bottom: 5px;
-  width: 35%;
+  width: 170px;
   height: auto;
 }
 
@@ -405,7 +413,14 @@ h6 {
 
   .section-title{
     font-family: Lato-Black;
-    font-size: 80px;
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+
+  .section-subtitle{
+    font-family: Lato-Black;
+    font-size: 35px;
+    margin-top: 30px;
     margin-bottom: 10px;
   }
 
@@ -522,12 +537,11 @@ h6 {
 
   .divide{
     border-top: 1px solid #c7c7c7;
-    margin-bottom: 3em;
   }
   
   .smm{
     font-size: 20px;
-    max-width: 100%;
+    max-width: 90%;
     font-family: Lato;
   }
   
@@ -560,6 +574,12 @@ h6 {
 
   .error{
     text-align: center;
+  }
+
+  .user-stat{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
   .copyright{

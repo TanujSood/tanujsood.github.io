@@ -47,24 +47,9 @@ const Landing = ({ siteTitle }) => (
                     <h5 class="laser-medium">Coming Soon...</h5>
                 </div>
             </div></Link>
-
-            <Link to="/LaserTag/"><div class="card card-1 laser-card">
-                <div class="area">
-                    <h2 class="laser-heading">LASERTAG</h2>
-                    <h5 class="laser-medium">Taking Outdoor Sports to the next level with AR</h5>
-                </div>
-            </div></Link>
-
-            <Link to="/LaserTag/"><div class="card card-1 laser-card">
-                <div class="area">
-                    <h2 class="laser-heading">LASERTAG</h2>
-                    <h5 class="laser-medium">Taking Outdoor Sports to the next level with AR</h5>
-                </div>
-            </div></Link>
-
     </main>
 
-    <div class="c4 chat">
+    <div class="c4">
         <h2 class="contact"><span class="highlight">Let's talk!</span></h2>
         <p class="mail">Wanna discuss internship opportunities? Or the next million dollar idea? Mail me <span class="highlight-mail"><a href="mailto:tanuj.sood_ug21@ashoka.edu.in">@tanuj.sood_ug21@ashoka.edu.in</a></span></p>
     </div>
