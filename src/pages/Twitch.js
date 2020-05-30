@@ -6,55 +6,55 @@ import Navbar from '../components/Navbar'
 const WerkIt = () => (
     <div>
       <Navbar />
-      <body class="grid">
-    <header class="c12">
-        <div class="title">
-                <div class="start">
-                    <h1 class="content-heading">Redesigning <span class="highlight-twitch">Esports</span> Viewing Experience</h1>
-                <div class="filler"></div> {/* Fill in with image*/}
+      <div className="grid">
+    <header className="c12">
+        <div className="title">
+                <div className="start">
+                    <h1 className="content-heading">Redesigning <span className="highlight-twitch">Esports</span> Viewing Experience</h1>
+                <div className="filler"></div> {/* Fill in with image*/}
                 </div>
         </div>
     </header>
 
-    <div class="c6 divide"></div>
+    <div className="c6 divide"></div>
 
-        <div class="c12 main">
-            <div class="summary">
-                <div class="summary-section">
-                    <div class="section summary-item">
-                        <h5 class="twitch-heading">OVERVIEW</h5>
-                        <p class="para-left">
+        <div className="c12 main">
+            <div className="summary">
+                <div className="summary-section">
+                    <div className="section summary-item">
+                        <h5 className="twitch-heading">OVERVIEW</h5>
+                        <p className="para-left">
                             A feature allowing users to share modified favorites with friends and encouraging users to try new drinks.
                             A feature allowing users to share modified favorites with friends and encouraging users to try new drinks.
 
                             A feature allowing users to share modified favorites with friends and encouraging users to try new drinks.
                         </p>
 
-                        <p class="para-left">
+                        <p className="para-left">
                             A feature allowing users to share modified favorites with friends and encouraging users to try new drinks.
                             A feature allowing users to share modified favorites with friends and encouraging users to try new drinks.
                         </p>
                     </div>
                 </div>
-                <div class="summary-section">
-                    <div class="section summary-item">
-                        <h5 class="twitch-heading">DURATION</h5>
-                        <p class="para">
+                <div className="summary-section">
+                    <div className="section summary-item">
+                        <h5 className="twitch-heading">DURATION</h5>
+                        <p className="para">
                             May 2020 (2 Weeks)
                         </p>
                     </div>
-                    <div class="section summary-item">
-                        <h5 class="twitch-heading">ROLES</h5>
-                        <p class="para">
+                    <div className="section summary-item">
+                        <h5 className="twitch-heading">ROLES</h5>
+                        <p className="para">
                             User Researcher
                         </p>
-                        <p class="para">
+                        <p className="para">
                             Experience Designer
                         </p>
                     </div>
-                    <div class="section summary-item">
-                        <h5 class="twitch-heading">TOOLS</h5>
-                        <p class="para">
+                    <div className="section summary-item">
+                        <h5 className="twitch-heading">TOOLS</h5>
+                        <p className="para">
                             Adobe XD
                         </p>
                     </div>
@@ -62,9 +62,9 @@ const WerkIt = () => (
             </div>
         </div>
 
-        <div class="c6 divide"></div>
+        <div className="c6 divide"></div>
     
-    </body>
+    </div>
     </div>
     
   )

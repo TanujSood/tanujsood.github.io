@@ -5,20 +5,20 @@ import Navbar from '../components/Navbar'
 const LaserTag = () => (
     <div>
       <Navbar />
-      <body class="grid">
-    <header class="c12">
-        <div class="title">
-                <div class="start">
-                    <h1 class="content-heading">Making <span class="highlight-laser">LaserTag</span> Cool Again!</h1>
-                <div class="filler"></div> {/* Fill in with image*/}
+      <div className="grid">
+    <header className="c12">
+        <div className="title">
+                <div className="start">
+                    <h1 className="content-heading">Making <span className="highlight-laser">LaserTag</span> Cool Again!</h1>
+                <div className="filler"></div> {/* Fill in with image*/}
                 </div>
         </div>
 
-        <div class="c12 main">
-        <div class="summary">
-            <div class="summary-section">
-                <div class="section summary-item">
-                    <h5 class="subtitle">OVERVIEW</h5>
+        <div className="c12 main">
+        <div className="summary">
+            <div className="summary-section">
+                <div className="section summary-item">
+                    <h5 className="subtitle">OVERVIEW</h5>
                     <p>
                         A feature allowing users to share modified favorites with friends and encouraging users to try new drinks.
                     </p>
@@ -27,7 +27,7 @@ const LaserTag = () => (
         </div>
     </div>
     </header>
-    </body>
+    </div>
     </div>
     
   )
