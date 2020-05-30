@@ -31,7 +31,16 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "fonts",
-        path: `src/fonts/`
+        path: `${__dirname}/static/fonts/`
+      }
+    },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        custom: {
+          families: ["Lato, Lato-Black, Airstrike, Airstrike Laser, Dosis"],
+          urls: ["static/fonts/fonts.css"],
+        },
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
