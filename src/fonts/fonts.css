@@ -2,40 +2,40 @@
     font-family: Lato;
     font-weight: normal;
     font-style: normal;
-    src: url("Lato-Regular.ttf") format("ttf");
+    src: url("../fonts/Lato-Regular.ttf") format("ttf");
   }
   
 @font-face {
     font-family: Lato-Black;
     font-weight: normal;
     font-style: normal;
-    src: url("Lato-Black.ttf") format("ttf");
+    src: url("../fonts/Lato-Black.ttf") format("ttf");
 }
 
 @font-face {
   font-family: Lato-Bold;
   font-weight: normal;
   font-style: normal;
-  src: url("Lato-Bold.ttf") format("ttf");
+  src: url("../fonts/Lato-Bold.ttf") format("ttf");
 }
   
   @font-face {
     font-family: Airstrike;
     font-weight: normal;
     font-style: normal;
-    src: url("airstrike.ttf") format("ttf");
+    src: url("../fonts/airstrike.ttf") format("ttf");
   }
   
   @font-face {
     font-family: Airstrike Laser;
     font-weight: normal;
     font-style: normal;
-    src: url("airstrikelaser.ttf") format("ttf");
+    src: url("../fonts/airstrikelaser.ttf") format("ttf");
   }
   
   @font-face {
     font-family: Dosis;
     font-weight: 400;
     font-style: normal;
-    src: url("Dosis-Regular.ttf") format("ttf");
+    src: url("../fonts/Dosis-Regular.ttf") format("ttf");
   }
