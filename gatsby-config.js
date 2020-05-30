@@ -27,13 +27,6 @@ module.exports = {
         icon: `src/images/logo.png`, // This path is relative to the root of the site.
       },
     },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "fonts",
-        path: `src/fonts/fonts.css`
-      }
-    },
     // {
     //   resolve: "gatsby-plugin-web-font-loader",
     //   options: {

@@ -20,7 +20,10 @@
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^6.0.0"
+    "react-helmet": "^6.0.0",
+    "typeface-audiowide": "0.0.72",
+    "typeface-dosis": "^1.1.4",
+    "typeface-lato": "0.0.75"
   },
   "devDependencies": {
     "prettier": "2.0.5"

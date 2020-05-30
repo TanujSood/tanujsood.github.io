@@ -5,3 +5,8 @@
  */
 
 // You can delete this file if you're not using it
+require('typeface-lato');
+require('typeface-dosis');
+require('typeface-audiowide');
+
+

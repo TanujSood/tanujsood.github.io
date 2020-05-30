@@ -247,7 +247,8 @@ ul li::before {
   }
 
   .contact{
-    font-family: Lato-Black;
+    font-family: Lato;
+    font-weight: 900;
     font-size: 40px;
     margin-top: 20vh;
   }
@@ -278,7 +279,8 @@ ul li::before {
   }
 
   .sub-heading{
-    font-family: Lato-Black;
+    font-family: Lato;
+    font-weight: 900;
     font-size: 18px;
     color: #fe5858;
     display: flex;
@@ -288,7 +290,8 @@ ul li::before {
   }
 
   .section-heading{
-    font-family: Lato-Black;
+    font-family: Lato;
+    font-weight: 900;
     font-size: 18px;
     color: #fe5858;
     display: flex;
@@ -298,8 +301,8 @@ ul li::before {
   }
 
   .twitch-heading{
-    font-family: Lato-Black;
-    font-size: 18px;
+    font-family: Lato;
+    font-weight: 900;
     color: #6441A5;
     display: flex;
     position: relative;
@@ -383,7 +386,8 @@ ul li::before {
   }
   
   .heading{
-    font-family: Lato-Black;
+    font-family: Lato;
+    font-weight: 900;
     font-size: 50px;
     margin-bottom: -10px;
     vertical-align: middle;
@@ -391,24 +395,26 @@ ul li::before {
   }
 
   .section-title{
-    font-family: Lato-Black;
+    font-family: Lato;
+    font-weight: 900;
     font-size: 60px;
     margin-bottom: 10px;
   }
 
   .section-subtitle{
-    font-family: Lato-Black;
+    font-family: Lato;
+    font-weight: 900;
     font-size: 35px;
     margin-top: 30px;
     margin-bottom: 10px;
   }
 
   .laser-heading{
-    font-family: Airstrike Laser;
-    font-size: 70px;
+    font-family: Audiowide;
+    width: 80%;
     margin-bottom: -5px;
     vertical-align: middle;
-    margin-top: 90px;
+    margin-top: 80px;
 
   }
 
@@ -477,6 +483,8 @@ ul li::before {
   }
 
   .highlight-laser{
+    font-family: audiowide;
+    font-size: 75px;
     background-color: #7ee8fa;
     background-image: linear-gradient(315deg, #7ee8fa 0%, #4AFC95 74%);
     font-weight: bold;
@@ -569,7 +577,8 @@ ul li::before {
   
 
   .content-heading{
-    font-family: Lato-Black;
+    font-family: Lato;
+    font-weight: 900;
     font-size: 90px;
     margin-top: -20px;
   }
