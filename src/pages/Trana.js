@@ -27,9 +27,9 @@ const Trana = () => (
                     <div class="section summary-item">
                         <h5 class="sub-heading">OVERVIEW</h5>
                         <p class="para-left">
-                            During pandemic struck times, I found no motivation to work out at home, so I decided to do something about it. With nowhere to go and loads of idle time, I decided to create an app that would help people find the motivation to get themselves out of bed. Träna is an app that motivates people to work out at home and stay fit.                        </p>
+                            During pandemic struck times, I found no motivation to work out at home, so I decided to do something about it. With nowhere to go and loads of idle time, I decided to create an app that would help people find the motivation to get themselves out of bed. Träna is a social fitness app that motivates people to work out at home and stay fit.                        </p>
                         <p class="para-left">
-                            Träna connects users with there peers and allows them to work out together and compete in an attempt to dominate weekly scores. All of this, in the comfort of their homes.
+                            Träna connects users with there peers and allows them to work out together and compete in an attempt to dominate weekly scores. All of this, from the comfort of their own homes.
                         </p>
                     </div>
                 </div>
@@ -79,7 +79,13 @@ const Trana = () => (
                 <h5 class="section-heading">THE CHALLENGE</h5>
                 <h5 class="section-title">Setting Goals</h5>
                 <p class="section-para">
-                I decided to set a few user goals I would keep in mind through every phase of my design process. This would allow me to keep the audience in mind at all times while focusing on maximising user engagement. These goals were:
+                    It's difficult to keep up with a strict fitness regime when a thousand different things cloud your motivation to work out. People who try to pick up fitness apps often give up since they can't get themselves to make an effort to exercise everyday. So, while designing the app, my main challenges would be to
+                    <ul>
+                        <li class="section-bullet">Introduce a unique feature to induce motivation.</li>
+                        <li class="section-bullet">Understand and improve on pain points from other fitness apps.</li>
+                        <li class="section-bullet">Think of a way to keep content fresh making sure users keep coming back.</li>
+                    </ul>
+                Since running is not an option during a lockdown, I was inclined to create an app users could use to help them work out at home. My primary aim was to maximise user retention so that users can enjoy using the app everyday without losing interest or motivation.
                 </p>
             </div>
 
@@ -88,16 +94,16 @@ const Trana = () => (
                 <h5 class="section-heading">USER RESEARCH</h5>
                 <h5 class="section-title">What Users Want</h5>
                 <p class="section-para">
-                    Solving a user-centric problem requires information from users to gauge their expectations from an ideal fitness app. Surveying 82 people from my university, I focused on regular gym-goers and how the lockdown affected their feelings and actions towards fitness. The results I acquired gave me insights I could work on and form goals to keep in mind while designing the app.
+                    Solving a user-centric problem requires information from users to gauge their expectations from an ideal fitness app. Surveying 82 people from my university, I focused on regular gym-goers and how the lockdown affected their feelings and actions towards fitness. The results I acquired gave me insights I could work on and form user personas to keep in mind while designing the app.
                 </p>
                 
                 <img src={Stat} class="user-stat" alt="userstat" />
 
                 <p class="section-para">
-                    Visualising these insights made my primary goal clearer than ever, I needed to induce motivation through my app's user experience. Asking people about their motivations to go to the gym, empathizing with users' wants gave me a brilliant idea which would help me achieve my goal.
+                    Visualising these insights validated my initial assumptions, I needed to prioritise motivation through my app's user experience. Asking people what pushed them to go to the gym, empathizing with users' wants gave me a brilliant idea which would help me achieve my goal.
                 </p>
                 <p class="section-para">
-                    Many users claimed how their friends often were a motivation for them to visit the gym, and how by doing so they pushed each other to get fitter. Using these facts, I formed a list of goals this app would need to achieve.
+                    Many users claimed how their friends often were a motivation for them to visit the gym, and how by doing so they pushed each other to get fitter. Using these facts, I formed a list of user goals this app would need to achieve.
                 </p>
                 <h5 class="section-subtitle">The Inevitable Tasklist</h5>
                 <p class="section-para">
